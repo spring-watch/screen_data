@@ -1,5 +1,8 @@
 """Fetch current prices for every symbol in the latest ETF/stock screener snapshots and merge into live_prices.json.
 
+Before the 9:30 ET open the pre-market price is used, after the 16:00 ET close the post-market price
+(when the symbol has one); otherwise the regular market price.
+
 Output: [{"AAPL": 338.32}, ..., {"updated_at": "2026-11-03T10:30:00Z"}]  (timestamp is always the last element)
 """
 import io
@@ -16,6 +19,8 @@ from common import BUCKET, get_logger, list_objects, s3
 PREFIXES = os.getenv("SCREENER_PREFIXES", "etf_screener_snapshots/,stock_screener_snapshots/").split(",")
 BATCH = 200  # symbols per Yahoo quote request
 QUOTE_URL = "https://query1.finance.yahoo.com/v7/finance/quote"
+# Yahoo marketState -> price field. PRE = 4:00-9:30 ET, POST = 16:00-20:00 ET, POSTPOST = after 20:00 ET.
+SESSION_FIELD = {"PRE": "preMarketPrice", "POST": "postMarketPrice", "POSTPOST": "postMarketPrice"}
 TS_KEY = "updated_at"
 OUT = Path("live_prices.json")
 log = get_logger("live_prices")
@@ -41,12 +46,16 @@ yahoo = {s.replace(".", "-").replace("/", "-"): s for s in symbols}  # BRK.B -> 
 prices, tickers, yf = {}, list(yahoo), YfData()
 for i in range(0, len(tickers), BATCH):
     try:
-        res = yf.get_raw_json(QUOTE_URL, params={"symbols": ",".join(tickers[i:i + BATCH]), "fields": "regularMarketPrice"})
+        res = yf.get_raw_json(QUOTE_URL, params={"symbols": ",".join(tickers[i:i + BATCH]),
+                                                 "fields": "regularMarketPrice,preMarketPrice,postMarketPrice,marketState"})
     except Exception as e:  # one bad batch shouldn't drop the rest
         log.warning("batch %d failed: %s", i // BATCH, e)
         continue
-    prices |= {yahoo[q["symbol"]]: round(q["regularMarketPrice"], 2)
-               for q in res["quoteResponse"]["result"] if q.get("regularMarketPrice") is not None and q["symbol"] in yahoo}
+    for q in res["quoteResponse"]["result"]:
+        # extended hours: latest pre/post-market trade if the symbol has one, else the regular price
+        p = q.get(SESSION_FIELD.get(q.get("marketState"), "")) or q.get("regularMarketPrice")
+        if p is not None and q["symbol"] in yahoo:
+            prices[yahoo[q["symbol"]]] = round(p, 2)
 log.info("fetched %d/%d prices", len(prices), len(symbols))
 
 now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
