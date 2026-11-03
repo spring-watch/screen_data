@@ -2,7 +2,7 @@ name: live-prices
 
 on:
   schedule:
-    - cron: "7-59/20 * * * *" # :07, :27, :47 UTC; off-peak minutes run more reliably
+    - cron: '*/5 * * * *' # :07, :27, :47 UTC; off-peak minutes run more reliably
   workflow_dispatch:
 
 permissions:
