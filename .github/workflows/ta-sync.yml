@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A ta_analysis
+          git add -A ta_analysis screen_meta.json
           git diff --cached --quiet && { echo "no ta changes"; exit 0; }
           git commit -m "chore: sync ta_analysis $(date -u +%FT%TZ)"
           git pull --rebase && git push
