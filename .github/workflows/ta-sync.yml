@@ -1,0 +1,57 @@
+name: ta-sync
+
+on:
+  repository_dispatch:
+    types: [ta-screener-updated]
+  workflow_dispatch:
+    inputs:
+      disable_otel:
+        description: "Skip sending OTel logs (dev/testing)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-write # shared with live-prices so pushes never race
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Join tailnet (ephemeral node)
+        uses: tailscale/github-action@v3
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:ci
+
+      - name: Sync ta_screener -> ta_analysis
+        env:
+          S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
+          S3_ACCESS_KEY_ID: ${{ secrets.S3_ACCESS_KEY_ID }}
+          S3_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_ACCESS_KEY }}
+          OTEL_EXPORTER_OTLP_ENDPOINT: ${{ secrets.OTEL_EXPORTER_OTLP_ENDPOINT }}
+          OTEL_EXPORTER_OTLP_HEADERS: ${{ secrets.OTEL_EXPORTER_OTLP_HEADERS }}
+          # manual: checkbox (default on); webhook: optional client_payload.disable_otel
+          NO_OTEL: ${{ inputs.disable_otel || github.event.client_payload.disable_otel || '' }}
+        run: |
+          docker run --rm --network host -u "$(id -u):$(id -g)" -e HOME=/tmp \
+            -e S3_ENDPOINT -e S3_ACCESS_KEY_ID -e S3_SECRET_ACCESS_KEY \
+            -e OTEL_EXPORTER_OTLP_ENDPOINT -e OTEL_EXPORTER_OTLP_HEADERS -e NO_OTEL \
+            -v "$PWD:/w" -w /w python:3.12-slim \
+            sh -c "pip install -q --user --no-warn-script-location -r scripts/requirements.txt && python scripts/sync_ta.py"
+
+      - name: Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A ta_analysis
+          git diff --cached --quiet && { echo "no ta changes"; exit 0; }
+          git commit -m "chore: sync ta_analysis $(date -u +%FT%TZ)"
+          git pull --rebase && git push
