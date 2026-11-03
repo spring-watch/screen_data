@@ -19,8 +19,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Join tailnet (ephemeral node)
-        uses: tailscale/github-action@v3
+      - name: Connect to Tailscale
+        uses: tailscale/github-action@v4
         with:
           authkey: ${{ secrets.TS_AUTHKEY }} # reusable + ephemeral key
 
