@@ -1,0 +1,46 @@
+{
+ "run_date": "2026-10-29",
+ "phase": "close",
+ "generated_at": "2026-11-04T06:57:50+00:00",
+ "last_bar_date": "2026-10-29",
+ "snapshot_dates": {
+  "stock": "2026-10-29",
+  "etf": "2026-10-29"
+ },
+ "industries": {
+  "1": "Aerospace & Defense",
+  "2": "Auto Manufacturers",
+  "3": "Banks - Diversified",
+  "4": "Beverages - Non-Alcoholic",
+  "5": "Capital Markets",
+  "6": "Communication Equipment",
+  "7": "Computer Hardware",
+  "8": "Consumer Electronics",
+  "9": "Credit Services",
+  "10": "Discount Stores",
+  "11": "Drug Manufacturers - General",
+  "12": "Farm & Heavy Construction Machinery",
+  "13": "Healthcare Plans",
+  "14": "Home Improvement Retail",
+  "15": "Household & Personal Products",
+  "16": "Insurance - Diversified",
+  "17": "Internet Content & Information",
+  "18": "Internet Retail",
+  "19": "Oil & Gas Integrated",
+  "20": "Semiconductor Equipment & Materials",
+  "21": "Semiconductors",
+  "22": "Software - Infrastructure",
+  "23": "Tobacco"
+ },
+ "zone_levels": {
+  "1": "Level 1 - Fresh (untested)",
+  "2": "Level 2 - Tested (semi-fresh)",
+  "3": "Level 3 - Stale (heavily tested)",
+  "4": "Level 4 - Invalidated (broken)"
+ },
+ "backfill": true,
+ "backfilled_from_snapshots": {
+  "stock_screener_snapshots": "2026-10-29",
+  "etf_screener_snapshots": "2026-10-29"
+ }
+}
