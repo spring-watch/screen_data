@@ -10,6 +10,9 @@ on:
         type: boolean
         default: true
 
+env:
+  TZ: America/New_York # Eastern time (EST/EDT) for all steps and the container
+
 permissions:
   contents: write
 
@@ -39,7 +42,7 @@ jobs:
           # manual: checkbox (default on); webhook: optional client_payload.disable_otel
           NO_OTEL: ${{ inputs.disable_otel || github.event.client_payload.disable_otel || '' }}
         run: |
-          docker run --rm --network host -u "$(id -u):$(id -g)" -e HOME=/tmp \
+          docker run --rm --network host -u "$(id -u):$(id -g)" -e HOME=/tmp -e TZ \
             -e S3_ENDPOINT -e S3_ACCESS_KEY_ID -e S3_SECRET_ACCESS_KEY \
             -e OTEL_EXPORTER_OTLP_ENDPOINT -e OTEL_EXPORTER_OTLP_HEADERS -e NO_OTEL \
             -v "$PWD:/w" -w /w python:3.12-slim \
@@ -51,5 +54,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A ta_analysis screen_meta.json
           git diff --cached --quiet && { echo "no ta changes"; exit 0; }
-          git commit -m "chore: sync ta_analysis $(date -u +%FT%TZ)"
+          git commit -m "chore: sync ta_analysis $(date +%FT%T%:z)"
           git pull --rebase && git push
