@@ -2,7 +2,7 @@ name: live-prices
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # :07, :27, :47 UTC; off-peak minutes run more reliably
+    - cron: '*/5 * * * *' # every 5 min; GitHub evaluates cron in UTC (interval is unaffected)
   workflow_dispatch:
 
 env:

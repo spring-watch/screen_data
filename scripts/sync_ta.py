@@ -5,8 +5,9 @@ screen_meta.json (available run dates + industry list) at the repo root."""
 import json
 import os
 import shutil
-from datetime import date, datetime, timezone
+from datetime import date, datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from common import BUCKET, get_logger, list_objects, s3
 
@@ -14,6 +15,7 @@ PREFIX = os.getenv("TA_PREFIX", "ta_screener/")
 DEST = Path("ta_analysis")
 MAX_BYTES = 95 * 1024**2  # GitHub rejects files > 100 MB
 META = Path("screen_meta.json")
+ET = ZoneInfo("America/New_York")  # NYSE time (EST/EDT); tz data ships with pandas' tzdata dependency
 log = get_logger("sync_ta")
 
 client = s3()
@@ -43,7 +45,7 @@ def write_meta():
         run_dates[d.isoformat()] = f"{d:%b} {d.day}, {d.year}{phase}"  # e.g. "Nov 3, 2026 (Premarket)"
         industries |= set(m.get("industries", {}).values())
     META.write_text(json.dumps({
-        "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "updated_at": datetime.now(ET).isoformat(timespec="seconds"),  # e.g. 2026-11-03T20:15:26-05:00
         "latest_run_date": next(iter(run_dates), None),
         "run_dates": run_dates,
         "industries": sorted(industries),

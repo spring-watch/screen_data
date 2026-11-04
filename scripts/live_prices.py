@@ -3,13 +3,14 @@
 Before the 9:30 ET open the pre-market price is used, after the 16:00 ET close the post-market price
 (when the symbol has one); otherwise the regular market price.
 
-Output: [{"AAPL": 338.32}, ..., {"updated_at": "2026-11-03T10:30:00Z"}]  (timestamp is always the last element)
+Output: [{"AAPL": 338.32}, ..., {"updated_at": "2026-11-03T10:30:00-05:00"}]  (timestamp is always the last element)
 """
 import io
 import json
 import os
-from datetime import datetime, timezone
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 from yfinance.data import YfData  # yfinance's session (handles Yahoo cookie/crumb)
@@ -23,6 +24,7 @@ QUOTE_URL = "https://query1.finance.yahoo.com/v7/finance/quote"
 SESSION_FIELD = {"PRE": "preMarketPrice", "POST": "postMarketPrice", "POSTPOST": "postMarketPrice"}
 TS_KEY = "updated_at"
 OUT = Path("live_prices.json")
+ET = ZoneInfo("America/New_York")  # NYSE time (EST/EDT); tz data ships with pandas' tzdata dependency
 log = get_logger("live_prices")
 
 
@@ -58,6 +60,6 @@ for i in range(0, len(tickers), BATCH):
             prices[yahoo[q["symbol"]]] = round(p, 2)
 log.info("fetched %d/%d prices", len(prices), len(symbols))
 
-now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+now = datetime.now(ET).isoformat(timespec="seconds")
 rows = [{k: v} for k, v in {**existing, **prices}.items()] + [{TS_KEY: now}]
 OUT.write_text(json.dumps(rows) + "\n")
