@@ -39,7 +39,7 @@ log.info("synced %d files from s3://%s/%s into %s/", len(keys), BUCKET, PREFIX, 
 
 def write_meta():
     run_dates, industries = {}, set()
-    for f in sorted(DEST.glob("run_date=*/_metadata.json"), reverse=True):  # newest first
+    for f in sorted(DEST.glob("run_date=*/metadata.json"), reverse=True):  # newest first
         m = json.loads(f.read_text())
         d = date.fromisoformat(m.get("run_date") or f.parent.name.split("=", 1)[1])
         phase = f" ({m['phase'].title()})" if m.get("phase") else ""
