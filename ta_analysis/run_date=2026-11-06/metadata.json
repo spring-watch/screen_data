@@ -1,7 +1,7 @@
 {
  "run_date": "2026-11-06",
- "phase": "premarket",
- "generated_at": "2026-11-06T12:31:28+00:00",
+ "phase": "intraday",
+ "generated_at": "2026-11-06T14:41:50+00:00",
  "last_bar_date": "2026-11-05",
  "snapshot_dates": {
   "stock": "2026-11-06",
@@ -9,8 +9,8 @@
  },
  "agree_count": 5009,
  "denied_count": 6406,
- "disagree_count": 5995,
- "no_data_count": 411,
+ "disagree_count": 6004,
+ "no_data_count": 402,
  "error_count": 0,
  "industries": {
   "1": "Advertising Agencies",
