@@ -1,16 +1,16 @@
 {
  "run_date": "2026-11-06",
- "phase": "intraday",
- "generated_at": "2026-11-06T14:41:50+00:00",
- "last_bar_date": "2026-11-05",
+ "phase": "close",
+ "generated_at": "2026-11-07T00:32:14+00:00",
+ "last_bar_date": "2026-11-06",
  "snapshot_dates": {
-  "stock": "2026-11-06",
-  "etf": "2026-11-06"
+  "stock": "2026-11-07",
+  "etf": "2026-11-07"
  },
- "agree_count": 5009,
- "denied_count": 6406,
- "disagree_count": 6004,
- "no_data_count": 402,
+ "agree_count": 4914,
+ "denied_count": 6499,
+ "disagree_count": 6091,
+ "no_data_count": 408,
  "error_count": 0,
  "industries": {
   "1": "Advertising Agencies",
@@ -167,7 +167,6 @@
   "152": "Luxury Goods",
   "153": "Macro Trading",
   "154": "Marine Shipping",
-  "155": "Medical - Pharmaceuticals",
   "156": "Medical Care Facilities",
   "157": "Medical Devices",
   "158": "Medical Distribution",
@@ -211,7 +210,6 @@
   "196": "Oil & Gas Midstream",
   "197": "Oil & Gas Refining & Marketing",
   "198": "Options & Volatility Strategies",
-  "199": "Other",
   "200": "Other Industrial Metals & Mining",
   "201": "Other Leveraged & Inverse",
   "202": "Other Precious Metals & Mining",
