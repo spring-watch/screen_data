@@ -2,6 +2,7 @@ import logging
 import os
 
 import boto3
+from botocore.config import Config
 
 BUCKET = os.getenv("S3_BUCKET", "market-data")
 
@@ -12,6 +13,8 @@ def s3():
         endpoint_url=os.environ["S3_ENDPOINT"],
         aws_access_key_id=os.environ["S3_ACCESS_KEY_ID"],
         aws_secret_access_key=os.environ["S3_SECRET_ACCESS_KEY"],
+        # fail fast on a stalled connection instead of hanging until the job timeout
+        config=Config(connect_timeout=10, read_timeout=60, retries={"max_attempts": 5, "mode": "standard"}),
     )
 
 

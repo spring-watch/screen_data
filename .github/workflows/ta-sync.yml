@@ -32,6 +32,21 @@ jobs:
         with:
           authkey: ${{ secrets.TS_AUTHKEY }} # reusable + ephemeral key
 
+      - name: Wait for S3 endpoint
+        env:
+          S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
+        run: |
+          host=$(python3 -c 'import os, urllib.parse; print(urllib.parse.urlsplit(os.environ["S3_ENDPOINT"]).hostname)')
+          for i in $(seq 1 12); do  # ~60s total
+            # any HTTP response (even 403) means DNS + TCP + TLS work
+            if getent hosts "$host" >/dev/null && curl -sS -o /dev/null --max-time 5 "$S3_ENDPOINT"; then
+              echo "S3 endpoint reachable (attempt $i)"; exit 0
+            fi
+            echo "S3 endpoint not reachable yet (attempt $i/12)"; sleep 5
+          done
+          echo "::error::S3 endpoint unreachable after ~60s; is the homelab node online in the tailnet?"
+          exit 1
+
       - name: Sync ta_screener -> ta_analysis
         env:
           S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
