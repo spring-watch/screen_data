@@ -1,0 +1,786 @@
+{
+ "industry_ids.json": {
+  "etag": "bf195064441a6a47af804f0474ee2d2a",
+  "size": 9510
+ },
+ "run_date=2026-08-12/analyst_approv.jsonl.zst": {
+  "etag": "2417c6c89aee763f3ce3b15d3a04de05-2",
+  "size": 8759509
+ },
+ "run_date=2026-08-12/analyst_denied.jsonl.zst": {
+  "etag": "3f0e9cb3bc8664c6a068eeec080a52b0-2",
+  "size": 12864302
+ },
+ "run_date=2026-08-12/metadata.json": {
+  "etag": "8a9541c74b4f0be42c2508e00f53b350",
+  "size": 9935
+ },
+ "run_date=2026-08-13/analyst_approv.jsonl.zst": {
+  "etag": "114453e7d57b6c2d471fe68d3d29e4f5",
+  "size": 190481
+ },
+ "run_date=2026-08-13/analyst_denied.jsonl.zst": {
+  "etag": "f9d7d81f120be16439a22a6d1dbbb422",
+  "size": 237783
+ },
+ "run_date=2026-08-13/metadata.json": {
+  "etag": "276b2c71adebd984d967cb218736c067",
+  "size": 2943
+ },
+ "run_date=2026-08-14/analyst_approv.jsonl.zst": {
+  "etag": "66d3e103b504a352350dd3509447a100-2",
+  "size": 8761811
+ },
+ "run_date=2026-08-14/analyst_denied.jsonl.zst": {
+  "etag": "9b319783d9678ceab0cc052851ba3628-2",
+  "size": 12945548
+ },
+ "run_date=2026-08-14/metadata.json": {
+  "etag": "166d1176c5ef70bb739c632fbd7b4c4f",
+  "size": 9894
+ },
+ "run_date=2026-08-17/analyst_approv.jsonl.zst": {
+  "etag": "5b34a8b8c6594057a4f21c0733311115-2",
+  "size": 8970015
+ },
+ "run_date=2026-08-17/analyst_denied.jsonl.zst": {
+  "etag": "6976147d6e1dfa4ce1d3dba3ab1afe68-2",
+  "size": 12857901
+ },
+ "run_date=2026-08-17/metadata.json": {
+  "etag": "93ad04544d6080dac101807dcbf236c0",
+  "size": 9916
+ },
+ "run_date=2026-08-18/analyst_approv.jsonl.zst": {
+  "etag": "f6e9fdf2714e08420ae4610d10ff1fa1-2",
+  "size": 9173102
+ },
+ "run_date=2026-08-18/analyst_denied.jsonl.zst": {
+  "etag": "5a8b1080062e2e1e9ea04071ad437603-2",
+  "size": 12869097
+ },
+ "run_date=2026-08-18/metadata.json": {
+  "etag": "5acd73790c8cf097a79afe5c6109649b",
+  "size": 9916
+ },
+ "run_date=2026-08-19/analyst_approv.jsonl.zst": {
+  "etag": "accbcc56952772723ffc6423710cc1ce-2",
+  "size": 8474260
+ },
+ "run_date=2026-08-19/analyst_denied.jsonl.zst": {
+  "etag": "c95d00ad3b7e0383dfc34a12c674efc2-2",
+  "size": 13658338
+ },
+ "run_date=2026-08-19/metadata.json": {
+  "etag": "48537b44022554e3677dd0c38c335985",
+  "size": 9916
+ },
+ "run_date=2026-08-20/analyst_approv.jsonl.zst": {
+  "etag": "8aed8dde1b8f1a94bd841e581c77b71a-2",
+  "size": 8442995
+ },
+ "run_date=2026-08-20/analyst_denied.jsonl.zst": {
+  "etag": "38ef8a894d03eddd519bee72e60d7cdc-2",
+  "size": 13763609
+ },
+ "run_date=2026-08-20/metadata.json": {
+  "etag": "6393ef5de77732ebb79a2edea4167ca4",
+  "size": 9916
+ },
+ "run_date=2026-08-21/analyst_approv.jsonl.zst": {
+  "etag": "78f7f966ac140d463fe0b22078403c4f-2",
+  "size": 9384411
+ },
+ "run_date=2026-08-21/analyst_denied.jsonl.zst": {
+  "etag": "a048f5e38139d6433acf1b6b6aea5c08-2",
+  "size": 12737380
+ },
+ "run_date=2026-08-21/metadata.json": {
+  "etag": "853d1581235cfd4120b43ec93497a002",
+  "size": 9916
+ },
+ "run_date=2026-08-24/analyst_approv.jsonl.zst": {
+  "etag": "4fa962155095f6c1500ab43715a05d93-2",
+  "size": 8968591
+ },
+ "run_date=2026-08-24/analyst_denied.jsonl.zst": {
+  "etag": "44704e946d5ba3674304686d093678ae-2",
+  "size": 13233132
+ },
+ "run_date=2026-08-24/metadata.json": {
+  "etag": "9a8dfeaa9282f5c16fcaff0d6d5ed741",
+  "size": 9916
+ },
+ "run_date=2026-08-25/analyst_approv.jsonl.zst": {
+  "etag": "9b31a757a93fd72ffd41004dcbe7f222-2",
+  "size": 8860979
+ },
+ "run_date=2026-08-25/analyst_denied.jsonl.zst": {
+  "etag": "750c1644032fb39a56ba6fdfa8e4948e-2",
+  "size": 13277970
+ },
+ "run_date=2026-08-25/metadata.json": {
+  "etag": "239749b78ca9e25ffe7e46d6a485297b",
+  "size": 9916
+ },
+ "run_date=2026-08-26/analyst_approv.jsonl.zst": {
+  "etag": "2179d0bc7dc0701bcc74180752e62583",
+  "size": 8198819
+ },
+ "run_date=2026-08-26/analyst_denied.jsonl.zst": {
+  "etag": "39fa957687e81b3c5501b4a0fe03f322-2",
+  "size": 13837956
+ },
+ "run_date=2026-08-26/metadata.json": {
+  "etag": "3b19ab034b5ece02ef76724f2391fa91",
+  "size": 9916
+ },
+ "run_date=2026-08-27/analyst_approv.jsonl.zst": {
+  "etag": "6b6871e904da058b1252949fadc76c9b-2",
+  "size": 8471324
+ },
+ "run_date=2026-08-27/analyst_denied.jsonl.zst": {
+  "etag": "78888ef6c7c3c78037f9b5e39f4045fe-2",
+  "size": 13548866
+ },
+ "run_date=2026-08-27/metadata.json": {
+  "etag": "82dcdf96f52a0184617293b3ede5d11b",
+  "size": 9916
+ },
+ "run_date=2026-08-28/analyst_approv.jsonl.zst": {
+  "etag": "f1faa23476e473dc05ad364e79095024",
+  "size": 7978747
+ },
+ "run_date=2026-08-28/analyst_denied.jsonl.zst": {
+  "etag": "3429a212c0123f6075700975ea0c04c0-2",
+  "size": 14103789
+ },
+ "run_date=2026-08-28/metadata.json": {
+  "etag": "efc663e01bb8680a94626036b4b87f2d",
+  "size": 9916
+ },
+ "run_date=2026-08-31/analyst_approv.jsonl.zst": {
+  "etag": "2e73488c2f1f828d3a658b37597d2327",
+  "size": 7205677
+ },
+ "run_date=2026-08-31/analyst_denied.jsonl.zst": {
+  "etag": "c40cc331f4f0594781bb61a333e48f72-2",
+  "size": 14942796
+ },
+ "run_date=2026-08-31/metadata.json": {
+  "etag": "bb2abe6c6b0763baaf6e330f7176c1c5",
+  "size": 9916
+ },
+ "run_date=2026-09-01/analyst_approv.jsonl.zst": {
+  "etag": "71902887d1f70828d3bd330221282176",
+  "size": 6561388
+ },
+ "run_date=2026-09-01/analyst_denied.jsonl.zst": {
+  "etag": "208c4599b87e92109b6f96ff6c332b19-2",
+  "size": 15549286
+ },
+ "run_date=2026-09-01/metadata.json": {
+  "etag": "a3fd8d513cb88a458b9466e76d779ffa",
+  "size": 9916
+ },
+ "run_date=2026-09-02/analyst_approv.jsonl.zst": {
+  "etag": "4b88daaf3b35e6e7d148a7cf2966001f",
+  "size": 7447059
+ },
+ "run_date=2026-09-02/analyst_denied.jsonl.zst": {
+  "etag": "cecdf8bba0c022574193e5b6c2bf4910-2",
+  "size": 14637815
+ },
+ "run_date=2026-09-02/metadata.json": {
+  "etag": "862a22780d3429ae5926cdc222b6053f",
+  "size": 9916
+ },
+ "run_date=2026-09-03/analyst_approv.jsonl.zst": {
+  "etag": "12c51cf80dd5e605229c0f821836a06d-2",
+  "size": 8522066
+ },
+ "run_date=2026-09-03/analyst_denied.jsonl.zst": {
+  "etag": "eac5ac3933c4aa9e419f0a2b18d453ab-2",
+  "size": 13564934
+ },
+ "run_date=2026-09-03/metadata.json": {
+  "etag": "185a1869821ef161157fb251848b84b0",
+  "size": 9916
+ },
+ "run_date=2026-09-04/analyst_approv.jsonl.zst": {
+  "etag": "2b8e92263b1358fa84f601e1b6ecfdd5",
+  "size": 8012632
+ },
+ "run_date=2026-09-04/analyst_denied.jsonl.zst": {
+  "etag": "4cdbecb823f6e6a6e1088af6afc2a863-2",
+  "size": 14093035
+ },
+ "run_date=2026-09-04/metadata.json": {
+  "etag": "e73b9b38bb93442f28047dbde9a4fe54",
+  "size": 9916
+ },
+ "run_date=2026-09-08/analyst_approv.jsonl.zst": {
+  "etag": "daa5c028646f7575f0e584fdf6729ede",
+  "size": 6991353
+ },
+ "run_date=2026-09-08/analyst_denied.jsonl.zst": {
+  "etag": "77d42f9990d82f3aaeb85c66d14a4b18-2",
+  "size": 15279787
+ },
+ "run_date=2026-09-08/metadata.json": {
+  "etag": "c10af7e8b3aeb28eb4ea9363800e7c2a",
+  "size": 9916
+ },
+ "run_date=2026-09-09/analyst_approv.jsonl.zst": {
+  "etag": "2140f77db138a5886ad2fa51a89602d2",
+  "size": 6898626
+ },
+ "run_date=2026-09-09/analyst_denied.jsonl.zst": {
+  "etag": "9c3bb23645c7aa85114c32e56df50358-2",
+  "size": 15361896
+ },
+ "run_date=2026-09-09/metadata.json": {
+  "etag": "2b30eca75c1ee32a209bde5aa5897394",
+  "size": 9916
+ },
+ "run_date=2026-09-10/analyst_approv.jsonl.zst": {
+  "etag": "f174de0e093e0c99393dc8532692b838",
+  "size": 6579577
+ },
+ "run_date=2026-09-10/analyst_denied.jsonl.zst": {
+  "etag": "1e47b3ac38665a9956be17ee7d1f74c6-2",
+  "size": 15696512
+ },
+ "run_date=2026-09-10/metadata.json": {
+  "etag": "8f3a077f40d19bfd19900c02c52018e7",
+  "size": 9916
+ },
+ "run_date=2026-09-11/analyst_approv.jsonl.zst": {
+  "etag": "59007c8f481e67dda52843cf36d73697",
+  "size": 7223857
+ },
+ "run_date=2026-09-11/analyst_denied.jsonl.zst": {
+  "etag": "fe961e6f91e12f3a543e30eed26149e8-2",
+  "size": 15024313
+ },
+ "run_date=2026-09-11/metadata.json": {
+  "etag": "6de93e8d226ae397a6c5ff368d199ec6",
+  "size": 9916
+ },
+ "run_date=2026-09-14/analyst_approv.jsonl.zst": {
+  "etag": "ae322cedfa0d110fccf41b6f29dceee8",
+  "size": 7405608
+ },
+ "run_date=2026-09-14/analyst_denied.jsonl.zst": {
+  "etag": "c91d5ac55c6f3617324d0302f8631a77-2",
+  "size": 14957206
+ },
+ "run_date=2026-09-14/metadata.json": {
+  "etag": "4eb019a90ebd48efa25c9c611465440a",
+  "size": 9643
+ },
+ "run_date=2026-09-15/analyst_approv.jsonl.zst": {
+  "etag": "e0084f39c2cbe57fd87e427dd34ef566",
+  "size": 7315769
+ },
+ "run_date=2026-09-15/analyst_denied.jsonl.zst": {
+  "etag": "3474563895406137a42a980f63128855-2",
+  "size": 15024780
+ },
+ "run_date=2026-09-15/metadata.json": {
+  "etag": "900b7b86575234d710f7d407a5a74464",
+  "size": 9677
+ },
+ "run_date=2026-09-16/analyst_approv.jsonl.zst": {
+  "etag": "2bc05aa306d18e93f51b0b2569a9846b",
+  "size": 7218105
+ },
+ "run_date=2026-09-16/analyst_denied.jsonl.zst": {
+  "etag": "a95b56b7df9933179567edb5e0fa241a-2",
+  "size": 15089698
+ },
+ "run_date=2026-09-16/metadata.json": {
+  "etag": "06832d7397cc6bcd2fdbe1591f61ad31",
+  "size": 9677
+ },
+ "run_date=2026-09-17/analyst_approv.jsonl.zst": {
+  "etag": "652111e899adce54d3487a39af85cbb0",
+  "size": 7777201
+ },
+ "run_date=2026-09-17/analyst_denied.jsonl.zst": {
+  "etag": "534f50eb56ab700840f717694b81706c-2",
+  "size": 14438171
+ },
+ "run_date=2026-09-17/metadata.json": {
+  "etag": "777be6820c13a8618e27f25db0cbdae3",
+  "size": 9677
+ },
+ "run_date=2026-09-18/analyst_approv.jsonl.zst": {
+  "etag": "e110848ed0949c74b25c82c48b3dc3d8",
+  "size": 7902785
+ },
+ "run_date=2026-09-18/analyst_denied.jsonl.zst": {
+  "etag": "4d7a3cdc295bd654a1424509bf555283-2",
+  "size": 14544269
+ },
+ "run_date=2026-09-18/metadata.json": {
+  "etag": "1f54db2be0680f8aa05988d15234feba",
+  "size": 9677
+ },
+ "run_date=2026-09-21/analyst_approv.jsonl.zst": {
+  "etag": "9054e4fa464c9575798ef8ee02a2e4a3-2",
+  "size": 8534667
+ },
+ "run_date=2026-09-21/analyst_denied.jsonl.zst": {
+  "etag": "8e98df2bd0acf56e4b3de757157adb6b-2",
+  "size": 13827210
+ },
+ "run_date=2026-09-21/metadata.json": {
+  "etag": "62491658bcb436f05f37fa7ec72a3157",
+  "size": 9677
+ },
+ "run_date=2026-09-22/analyst_approv.jsonl.zst": {
+  "etag": "a301c1fc076943ba256d314f4a59e2d1-2",
+  "size": 8711623
+ },
+ "run_date=2026-09-22/analyst_denied.jsonl.zst": {
+  "etag": "ab41c80b8579b4eaa863afd5bcf75a91-2",
+  "size": 13782065
+ },
+ "run_date=2026-09-22/metadata.json": {
+  "etag": "dd077e6774ccb9a76a619f63fcbbc97c",
+  "size": 9683
+ },
+ "run_date=2026-09-24/analyst_approv.jsonl.zst": {
+  "etag": "cc5e1f68e64ab4ab08346343ed79bc53-2",
+  "size": 9060041
+ },
+ "run_date=2026-09-24/analyst_denied.jsonl.zst": {
+  "etag": "3f732822d2fb2167016e384e8daf65ee-2",
+  "size": 13349632
+ },
+ "run_date=2026-09-24/metadata.json": {
+  "etag": "d476f3663103cdb61bdb2eb691995792",
+  "size": 9683
+ },
+ "run_date=2026-09-25/analyst_approv.jsonl.zst": {
+  "etag": "eb9a691c66e70989aadd154f614fedc1-2",
+  "size": 8978893
+ },
+ "run_date=2026-09-25/analyst_denied.jsonl.zst": {
+  "etag": "1d10a7f0ade1416affaee480108b5eb5-2",
+  "size": 13282106
+ },
+ "run_date=2026-09-25/metadata.json": {
+  "etag": "785e42c369b651a9573c24d3ef395149",
+  "size": 9683
+ },
+ "run_date=2026-09-28/analyst_approv.jsonl.zst": {
+  "etag": "5974974b7b56a754613bb4556bf6ddf8-2",
+  "size": 8917142
+ },
+ "run_date=2026-09-28/analyst_denied.jsonl.zst": {
+  "etag": "ace785bb9f37a4ccd290c1ac68d16094-2",
+  "size": 13274590
+ },
+ "run_date=2026-09-28/metadata.json": {
+  "etag": "2ad7924022427f8ec3e16d0af467be52",
+  "size": 9683
+ },
+ "run_date=2026-09-29/analyst_approv.jsonl.zst": {
+  "etag": "7f7a9df5469706195c54b0a0af9a4620-2",
+  "size": 8930848
+ },
+ "run_date=2026-09-29/analyst_denied.jsonl.zst": {
+  "etag": "14e9e4a53e77a638daa8020cb5bdf197-2",
+  "size": 13274835
+ },
+ "run_date=2026-09-29/metadata.json": {
+  "etag": "c936a7ac9b4a419e5c3a1658edd661c8",
+  "size": 9683
+ },
+ "run_date=2026-09-30/analyst_approv.jsonl.zst": {
+  "etag": "40685eb0f7152a88f782788ef597e759-2",
+  "size": 9321463
+ },
+ "run_date=2026-09-30/analyst_denied.jsonl.zst": {
+  "etag": "708630d76c403a280ff2d00be09ed7e2-2",
+  "size": 12987560
+ },
+ "run_date=2026-09-30/metadata.json": {
+  "etag": "8dc13be8de0945742277f9cc0d78c1c9",
+  "size": 9683
+ },
+ "run_date=2026-10-01/analyst_approv.jsonl.zst": {
+  "etag": "dcbb996f624dadc6bfd2c5e6242c6492",
+  "size": 7472826
+ },
+ "run_date=2026-10-01/analyst_denied.jsonl.zst": {
+  "etag": "4c7dc478ac3b2fbc17abdffd1ee9a3ac-2",
+  "size": 10077572
+ },
+ "run_date=2026-10-01/metadata.json": {
+  "etag": "2dc5bbaafc5a54b03acbbbcacc8cd234",
+  "size": 9683
+ },
+ "run_date=2026-10-02/analyst_approv.jsonl.zst": {
+  "etag": "f3c99a562a4525cc8e6b02c7a1796d70",
+  "size": 7644127
+ },
+ "run_date=2026-10-02/analyst_denied.jsonl.zst": {
+  "etag": "e10aa8b1f96c50414b6aa1eee8744732-2",
+  "size": 9865496
+ },
+ "run_date=2026-10-02/metadata.json": {
+  "etag": "fffe7a70a083f19c1df52ddabba8c352",
+  "size": 9683
+ },
+ "run_date=2026-10-05/analyst_approv.jsonl.zst": {
+  "etag": "04056900a7fefe00cc5b47dbb96f7754",
+  "size": 7641524
+ },
+ "run_date=2026-10-05/analyst_denied.jsonl.zst": {
+  "etag": "112ca29f351f49b09325746aa99d1de5-2",
+  "size": 9840204
+ },
+ "run_date=2026-10-05/metadata.json": {
+  "etag": "dbba0c9ddbc86fbb3a8d0cfc1190f10d",
+  "size": 9683
+ },
+ "run_date=2026-10-06/analyst_approv.jsonl.zst": {
+  "etag": "1f77408fb735af5589b2011c3c3fe030",
+  "size": 7408300
+ },
+ "run_date=2026-10-06/analyst_denied.jsonl.zst": {
+  "etag": "4f78e19177d6aea4be3edc6aa6a5081e-2",
+  "size": 10035668
+ },
+ "run_date=2026-10-06/metadata.json": {
+  "etag": "d029f6afdd8f13b5757f766209276210",
+  "size": 9683
+ },
+ "run_date=2026-10-07/analyst_approv.jsonl.zst": {
+  "etag": "0d63c7aeeb113f50ebad0026e6dee141",
+  "size": 7864710
+ },
+ "run_date=2026-10-07/analyst_denied.jsonl.zst": {
+  "etag": "30181faaa1286e3e9261feadc2ae3558-2",
+  "size": 9627871
+ },
+ "run_date=2026-10-07/metadata.json": {
+  "etag": "83135e18269c47aec8d76a6f7018f970",
+  "size": 9683
+ },
+ "run_date=2026-10-08/analyst_approv.jsonl.zst": {
+  "etag": "ce6c6c506b79ed0f83bbb9f690f5e343",
+  "size": 7592737
+ },
+ "run_date=2026-10-08/analyst_denied.jsonl.zst": {
+  "etag": "8391cb427bccc3e21d868f57e299f9e2-2",
+  "size": 10061963
+ },
+ "run_date=2026-10-08/metadata.json": {
+  "etag": "8fb32e50ae6f291f27e05a6455c2a3e4",
+  "size": 9597
+ },
+ "run_date=2026-10-09/analyst_approv.jsonl.zst": {
+  "etag": "dfe65eb7247ca484d11c697eb254c2c4",
+  "size": 7405540
+ },
+ "run_date=2026-10-09/analyst_denied.jsonl.zst": {
+  "etag": "ee1e40da906f0c41700fa03c79e5a432-2",
+  "size": 10126216
+ },
+ "run_date=2026-10-09/metadata.json": {
+  "etag": "50102c02bce51586cb182f3807e9f6e9",
+  "size": 9555
+ },
+ "run_date=2026-10-12/analyst_approv.jsonl.zst": {
+  "etag": "45fe07dcbd181ac57e8abe877057a408",
+  "size": 7257668
+ },
+ "run_date=2026-10-12/analyst_denied.jsonl.zst": {
+  "etag": "80fbbe323d73879b57ed78d0f9d35d1b-2",
+  "size": 10235845
+ },
+ "run_date=2026-10-12/metadata.json": {
+  "etag": "f53623cb4a4afbb39a18e5bb6fb7a6a8",
+  "size": 9520
+ },
+ "run_date=2026-10-13/analyst_approv.jsonl.zst": {
+  "etag": "fca54d87af2a326f9b967138ae48d787",
+  "size": 6949828
+ },
+ "run_date=2026-10-13/analyst_denied.jsonl.zst": {
+  "etag": "59d1c31163d85938ee1c99402330828e-2",
+  "size": 10588620
+ },
+ "run_date=2026-10-13/metadata.json": {
+  "etag": "43a5c5419318a29a81e395524525ade7",
+  "size": 9520
+ },
+ "run_date=2026-10-14/analyst_approv.jsonl.zst": {
+  "etag": "a24e8ab7973715c70d402f13eca82c6d",
+  "size": 6842776
+ },
+ "run_date=2026-10-14/analyst_denied.jsonl.zst": {
+  "etag": "2e86b65e89fd12bc9589e9c01fa1681e-2",
+  "size": 10791615
+ },
+ "run_date=2026-10-14/metadata.json": {
+  "etag": "b760e98198b015df8672735504a75fe6",
+  "size": 9520
+ },
+ "run_date=2026-10-15/analyst_approv.jsonl.zst": {
+  "etag": "f0e64e41c5ce8df6b82c79c38d1b4483",
+  "size": 5772166
+ },
+ "run_date=2026-10-15/analyst_denied.jsonl.zst": {
+  "etag": "19cbba20cc637468ff34a5f053a9e2de-2",
+  "size": 11935355
+ },
+ "run_date=2026-10-15/metadata.json": {
+  "etag": "db36754fb80358503df31cb75b07c580",
+  "size": 9484
+ },
+ "run_date=2026-10-16/analyst_approv.jsonl.zst": {
+  "etag": "2d71a3e7b93fce2bbb184e98dcf02422",
+  "size": 5641203
+ },
+ "run_date=2026-10-16/analyst_denied.jsonl.zst": {
+  "etag": "961b84ab6ea6dadb9c382209910fa88f-2",
+  "size": 12013916
+ },
+ "run_date=2026-10-16/metadata.json": {
+  "etag": "04eb9d7fdc593b5e869bdd0cb8ac0e45",
+  "size": 9518
+ },
+ "run_date=2026-10-19/analyst_approv.jsonl.zst": {
+  "etag": "161e92064f06c0eabdbb44d3beaa888b",
+  "size": 6346313
+ },
+ "run_date=2026-10-19/analyst_denied.jsonl.zst": {
+  "etag": "ecda917444fe32fee1c5d9d707737fdd-2",
+  "size": 11358919
+ },
+ "run_date=2026-10-19/metadata.json": {
+  "etag": "cdf9e00d62b224260d840f35691776da",
+  "size": 9552
+ },
+ "run_date=2026-10-20/analyst_approv.jsonl.zst": {
+  "etag": "7f532c8af1ea7582bac22fe951592230",
+  "size": 5789696
+ },
+ "run_date=2026-10-20/analyst_denied.jsonl.zst": {
+  "etag": "47f15b37d82feffe3bfefb8fabfe7828-2",
+  "size": 11929988
+ },
+ "run_date=2026-10-20/metadata.json": {
+  "etag": "c627210673a6d1258caaa22dbce591ae",
+  "size": 9552
+ },
+ "run_date=2026-10-21/analyst_approv.jsonl.zst": {
+  "etag": "b122f26285fbe75c913d49394f87da6a",
+  "size": 6087109
+ },
+ "run_date=2026-10-21/analyst_denied.jsonl.zst": {
+  "etag": "fb06e03f4b01a31a7990f46a461cb7aa-2",
+  "size": 11653231
+ },
+ "run_date=2026-10-21/metadata.json": {
+  "etag": "a4d276c39246931616aa1580a85e21f6",
+  "size": 9552
+ },
+ "run_date=2026-10-22/analyst_approv.jsonl.zst": {
+  "etag": "471c79ef3cde3c7a818d8d81e90def37",
+  "size": 5935229
+ },
+ "run_date=2026-10-22/analyst_denied.jsonl.zst": {
+  "etag": "67d5be5ce54c8aede81acc953b7d9e6c-2",
+  "size": 11914653
+ },
+ "run_date=2026-10-22/metadata.json": {
+  "etag": "f8fd7ded423e175ff664c96ac1ee8b15",
+  "size": 9552
+ },
+ "run_date=2026-10-23/analyst_approv.jsonl.zst": {
+  "etag": "5dc837cb9b2badd9428548b883361e85",
+  "size": 6272332
+ },
+ "run_date=2026-10-23/analyst_denied.jsonl.zst": {
+  "etag": "c997e5fde13f272079848bb76125d80d-2",
+  "size": 11613159
+ },
+ "run_date=2026-10-23/metadata.json": {
+  "etag": "a18aaa7518f64ce99088105222a7873c",
+  "size": 9552
+ },
+ "run_date=2026-10-26/analyst_approv.jsonl.zst": {
+  "etag": "20d71fb0c526e842afc8c6b4880c24b5",
+  "size": 6285096
+ },
+ "run_date=2026-10-26/analyst_denied.jsonl.zst": {
+  "etag": "15d02c3d5d5d37a928897c32207e8dab-2",
+  "size": 11671802
+ },
+ "run_date=2026-10-26/metadata.json": {
+  "etag": "c2d8b409898247e0d9b750d1f39495d8",
+  "size": 9587
+ },
+ "run_date=2026-10-27/analyst_approv.jsonl.zst": {
+  "etag": "5904eabeb6e3b5b95a43bad72b066c6f",
+  "size": 5981725
+ },
+ "run_date=2026-10-27/analyst_denied.jsonl.zst": {
+  "etag": "c01d96d3c6e8b7296f13d6c440c771a7-2",
+  "size": 12083266
+ },
+ "run_date=2026-10-27/metadata.json": {
+  "etag": "0a8b5a4c9d82769b77ac3e3a6f96f9b7",
+  "size": 9627
+ },
+ "run_date=2026-10-28/analyst_approv.jsonl.zst": {
+  "etag": "ec623c16d8be77e5ddf87c641adf0183",
+  "size": 5956678
+ },
+ "run_date=2026-10-28/analyst_denied.jsonl.zst": {
+  "etag": "b2c5e6ce4d78673e71a46edfe3259649-2",
+  "size": 12193429
+ },
+ "run_date=2026-10-28/metadata.json": {
+  "etag": "bd8c5e54b083c9cbae535cdebc019cae",
+  "size": 10288
+ },
+ "run_date=2026-10-29/analyst_approv.jsonl.zst": {
+  "etag": "116d37d56b8b42c6821663b8141ebefe",
+  "size": 5815655
+ },
+ "run_date=2026-10-29/analyst_denied.jsonl.zst": {
+  "etag": "97e55d3fd78153ee3e5e79ec35f14a66-2",
+  "size": 12406773
+ },
+ "run_date=2026-10-29/metadata.json": {
+  "etag": "a32376e39b7e16adaf9e07c9fcd935e5",
+  "size": 10482
+ },
+ "run_date=2026-10-30/analyst_approv.jsonl.zst": {
+  "etag": "0297cacdc1630112863c40134698caa3",
+  "size": 6448808
+ },
+ "run_date=2026-10-30/analyst_denied.jsonl.zst": {
+  "etag": "59260fa2e027220ebc6d098ab287c3b7-2",
+  "size": 11918753
+ },
+ "run_date=2026-10-30/metadata.json": {
+  "etag": "92cdff1f8524e880ca77e9824f2f64ee",
+  "size": 10520
+ },
+ "run_date=2026-11-02/analyst_approv.jsonl.zst": {
+  "etag": "9e2d5d359fab93c48869af4b97b5b07d-2",
+  "size": 8500974
+ },
+ "run_date=2026-11-02/analyst_denied.jsonl.zst": {
+  "etag": "62aaf74f91c65b8d604dc1a87264b1dd-2",
+  "size": 14890395
+ },
+ "run_date=2026-11-02/metadata.json": {
+  "etag": "b4f48f340776352566cc316b459ae563",
+  "size": 10416
+ },
+ "run_date=2026-11-03/analyst_approv.jsonl.zst": {
+  "etag": "dc9e59fc568b3eb9972f5a29821156a7-2",
+  "size": 8552422
+ },
+ "run_date=2026-11-03/analyst_denied.jsonl.zst": {
+  "etag": "0a38b250a911ed6a19306ebf7b99b174-2",
+  "size": 14797927
+ },
+ "run_date=2026-11-03/metadata.json": {
+  "etag": "3735c06bf498019e6c2defdf984d032b",
+  "size": 10342
+ },
+ "run_date=2026-11-04/analyst_approv.jsonl.zst": {
+  "etag": "abc662103a81a4cb0f513a30ba9ef03d-2",
+  "size": 8552602
+ },
+ "run_date=2026-11-04/analyst_denied.jsonl.zst": {
+  "etag": "0eff5e219e75b71c52d25ccd88f926a7-2",
+  "size": 14753672
+ },
+ "run_date=2026-11-04/metadata.json": {
+  "etag": "2df28a020351f9ae47ed72fe4bcabd9b",
+  "size": 10342
+ },
+ "run_date=2026-11-05/analyst_approv.jsonl.zst": {
+  "etag": "0f0f1df92938700f5ae0d0609eff37f4-2",
+  "size": 10150163
+ },
+ "run_date=2026-11-05/analyst_denied.jsonl.zst": {
+  "etag": "7c38f9c606310427ce6225a625be7361-2",
+  "size": 13312779
+ },
+ "run_date=2026-11-05/metadata.json": {
+  "etag": "045e2baf8775b0ef642b5e9b9963eea4",
+  "size": 10342
+ },
+ "run_date=2026-11-06/analyst_approv.jsonl.zst": {
+  "etag": "488d3819d1820e6237f9562e671dc44d-2",
+  "size": 9739961
+ },
+ "run_date=2026-11-06/analyst_denied.jsonl.zst": {
+  "etag": "2dc2ccf628255818fa42ddb7f82944c7-2",
+  "size": 13654450
+ },
+ "run_date=2026-11-06/metadata.json": {
+  "etag": "f867369025be9f230a83d3aa769b9ac1",
+  "size": 10386
+ },
+ "run_date=2026-11-09/analyst_approv.jsonl.zst": {
+  "etag": "e4fb82f49f836d27d60468872d93cf57-2",
+  "size": 9035448
+ },
+ "run_date=2026-11-09/analyst_denied.jsonl.zst": {
+  "etag": "e6c1355481f1d66a036b5f13f2f29a61-2",
+  "size": 14205608
+ },
+ "run_date=2026-11-09/metadata.json": {
+  "etag": "f625b99dea1f799cbcc17359e05b88dc",
+  "size": 10252
+ },
+ "run_date=2026-11-10/analyst_approv.jsonl.zst": {
+  "etag": "898f736cf4832cb1971b080f223e31c1-2",
+  "size": 9581825
+ },
+ "run_date=2026-11-10/analyst_denied.jsonl.zst": {
+  "etag": "e9c783d80d02d6e85616d86e45fa980c-2",
+  "size": 13580579
+ },
+ "run_date=2026-11-10/metadata.json": {
+  "etag": "046a15df44c5bdafc71f62f1dbaad758",
+  "size": 10252
+ },
+ "run_date=2026-11-11/analyst_approv.jsonl.zst": {
+  "etag": "88527610fb5a6b7a540818b6eab0dcda",
+  "size": 7500428
+ },
+ "run_date=2026-11-11/analyst_denied.jsonl.zst": {
+  "etag": "fe9501b3fbfd07f8e11e6a469b188438-2",
+  "size": 10846843
+ },
+ "run_date=2026-11-11/metadata.json": {
+  "etag": "cc952d492f0fc26d7b8ecbb4a74958f7",
+  "size": 10116
+ },
+ "run_date=2026-11-12/analyst_approv.jsonl.zst": {
+  "etag": "d68a5d661627f6e52e5282588a0bd46a",
+  "size": 8353858
+ },
+ "run_date=2026-11-12/analyst_denied.jsonl.zst": {
+  "etag": "a60b757a80a2e8c6d3bf0a2932bf6348-2",
+  "size": 14693732
+ },
+ "run_date=2026-11-12/metadata.json": {
+  "etag": "f77fd8bb9b477a21377d01a8fe1b74bd",
+  "size": 10116
+ }
+}
