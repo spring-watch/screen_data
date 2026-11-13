@@ -1,16 +1,16 @@
 {
  "run_date": "2026-10-21",
  "phase": "close",
- "generated_at": "2026-11-10T19:30:26+00:00",
+ "generated_at": "2026-11-12T18:25:19+00:00",
  "last_bar_date": "2026-10-21",
  "snapshot_dates": {
   "stock": "2026-10-21",
   "etf": "2026-10-21"
  },
- "agree_count": 3713,
- "denied_count": 7710,
- "disagree_count": 7233,
- "no_data_count": 477,
+ "agree_count": 3711,
+ "denied_count": 7712,
+ "disagree_count": 7232,
+ "no_data_count": 480,
  "error_count": 0,
  "industries": {
   "1": "Advertising Agencies",
