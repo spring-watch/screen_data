@@ -700,8 +700,8 @@
   "size": 10342
  },
  "run_date=2026-11-04/analyst.parquet": {
-  "etag": "d72cadb7406f9bde7f9b3b950e78621f-2",
-  "size": 15023969
+  "etag": "394fde3281c228c7fcfbe8d61391ea22-2",
+  "size": 16440930
  },
  "run_date=2026-11-04/analyst_approv.jsonl.zst": {
   "etag": "abc662103a81a4cb0f513a30ba9ef03d-2",
