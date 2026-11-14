@@ -324,5 +324,61 @@
  "backfilled_from_snapshots": {
   "stock_screener_snapshots": "2026-11-05",
   "etf_screener_snapshots": "2026-11-05"
- }
+ },
+ "analyst_files": [
+  {
+   "file": "analyst_A-E.parquet",
+   "letters": "A-E",
+   "rows": 3416,
+   "agree_rows": 1392,
+   "first_sym": "A",
+   "last_sym": "EZU",
+   "bytes": 4852512
+  },
+  {
+   "file": "analyst_F-J.parquet",
+   "letters": "F-J",
+   "rows": 2210,
+   "agree_rows": 956,
+   "first_sym": "F",
+   "last_sym": "JZXN",
+   "bytes": 3231979
+  },
+  {
+   "file": "analyst_K-O.parquet",
+   "letters": "K-O",
+   "rows": 1862,
+   "agree_rows": 751,
+   "first_sym": "KAI",
+   "last_sym": "OZK",
+   "bytes": 2697743
+  },
+  {
+   "file": "analyst_P-T.parquet",
+   "letters": "P-T",
+   "rows": 2723,
+   "agree_rows": 1126,
+   "first_sym": "P",
+   "last_sym": "TZOO",
+   "bytes": 3907625
+  },
+  {
+   "file": "analyst_U-Y.parquet",
+   "letters": "U-Y",
+   "rows": 1118,
+   "agree_rows": 445,
+   "first_sym": "U",
+   "last_sym": "YYYM",
+   "bytes": 1672487
+  },
+  {
+   "file": "analyst_Z.parquet",
+   "letters": "Z",
+   "rows": 80,
+   "agree_rows": 15,
+   "first_sym": "Z",
+   "last_sym": "ZYME",
+   "bytes": 210401
+  }
+ ]
 }
