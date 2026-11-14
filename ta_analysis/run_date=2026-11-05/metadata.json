@@ -327,49 +327,229 @@
  },
  "analyst_files": [
   {
-   "file": "analyst_A-E.parquet",
-   "letters": "A-E",
-   "rows": 3416,
-   "agree_rows": 1392,
+   "file": "analyst_A.parquet",
+   "letters": "A",
+   "rows": 923,
+   "agree_rows": 374,
    "first_sym": "A",
+   "last_sym": "AZZ",
+   "bytes": 1384093
+  },
+  {
+   "file": "analyst_B.parquet",
+   "letters": "B",
+   "rows": 708,
+   "agree_rows": 266,
+   "first_sym": "B",
+   "last_sym": "BZZ",
+   "bytes": 1120096
+  },
+  {
+   "file": "analyst_C.parquet",
+   "letters": "C",
+   "rows": 824,
+   "agree_rows": 343,
+   "first_sym": "C",
+   "last_sym": "CZWI",
+   "bytes": 1293659
+  },
+  {
+   "file": "analyst_D.parquet",
+   "letters": "D",
+   "rows": 472,
+   "agree_rows": 194,
+   "first_sym": "D",
+   "last_sym": "DZZ",
+   "bytes": 786912
+  },
+  {
+   "file": "analyst_E.parquet",
+   "letters": "E",
+   "rows": 489,
+   "agree_rows": 215,
+   "first_sym": "E",
    "last_sym": "EZU",
-   "bytes": 4852512
+   "bytes": 806432
   },
   {
-   "file": "analyst_F-J.parquet",
-   "letters": "F-J",
-   "rows": 2210,
-   "agree_rows": 956,
+   "file": "analyst_F.parquet",
+   "letters": "F",
+   "rows": 620,
+   "agree_rows": 263,
    "first_sym": "F",
+   "last_sym": "FYX",
+   "bytes": 1018581
+  },
+  {
+   "file": "analyst_G.parquet",
+   "letters": "G",
+   "rows": 457,
+   "agree_rows": 206,
+   "first_sym": "G",
+   "last_sym": "GYRO",
+   "bytes": 770389
+  },
+  {
+   "file": "analyst_H.parquet",
+   "letters": "H",
+   "rows": 345,
+   "agree_rows": 150,
+   "first_sym": "H",
+   "last_sym": "HZO",
+   "bytes": 597854
+  },
+  {
+   "file": "analyst_I.parquet",
+   "letters": "I",
+   "rows": 573,
+   "agree_rows": 250,
+   "first_sym": "IA",
+   "last_sym": "IZRL",
+   "bytes": 927673
+  },
+  {
+   "file": "analyst_J.parquet",
+   "letters": "J",
+   "rows": 215,
+   "agree_rows": 87,
+   "first_sym": "J",
    "last_sym": "JZXN",
-   "bytes": 3231979
+   "bytes": 415819
   },
   {
-   "file": "analyst_K-O.parquet",
-   "letters": "K-O",
-   "rows": 1862,
-   "agree_rows": 751,
+   "file": "analyst_K.parquet",
+   "letters": "K",
+   "rows": 222,
+   "agree_rows": 102,
    "first_sym": "KAI",
+   "last_sym": "KZIA",
+   "bytes": 426480
+  },
+  {
+   "file": "analyst_L.parquet",
+   "letters": "L",
+   "rows": 349,
+   "agree_rows": 133,
+   "first_sym": "L",
+   "last_sym": "LZMH",
+   "bytes": 609917
+  },
+  {
+   "file": "analyst_M.parquet",
+   "letters": "M",
+   "rows": 603,
+   "agree_rows": 237,
+   "first_sym": "M",
+   "last_sym": "MZZ",
+   "bytes": 955697
+  },
+  {
+   "file": "analyst_N.parquet",
+   "letters": "N",
+   "rows": 424,
+   "agree_rows": 179,
+   "first_sym": "NA",
+   "last_sym": "NZAC",
+   "bytes": 715679
+  },
+  {
+   "file": "analyst_O.parquet",
+   "letters": "O",
+   "rows": 264,
+   "agree_rows": 100,
+   "first_sym": "O",
    "last_sym": "OZK",
-   "bytes": 2697743
+   "bytes": 481836
   },
   {
-   "file": "analyst_P-T.parquet",
-   "letters": "P-T",
-   "rows": 2723,
-   "agree_rows": 1126,
+   "file": "analyst_P.parquet",
+   "letters": "P",
+   "rows": 613,
+   "agree_rows": 233,
    "first_sym": "P",
-   "last_sym": "TZOO",
-   "bytes": 3907625
+   "last_sym": "PZZA",
+   "bytes": 994599
   },
   {
-   "file": "analyst_U-Y.parquet",
-   "letters": "U-Y",
-   "rows": 1118,
-   "agree_rows": 445,
+   "file": "analyst_Q.parquet",
+   "letters": "Q",
+   "rows": 193,
+   "agree_rows": 115,
+   "first_sym": "Q",
+   "last_sym": "QYLG",
+   "bytes": 380226
+  },
+  {
+   "file": "analyst_R.parquet",
+   "letters": "R",
+   "rows": 414,
+   "agree_rows": 176,
+   "first_sym": "R",
+   "last_sym": "RZV",
+   "bytes": 705116
+  },
+  {
+   "file": "analyst_S.parquet",
+   "letters": "S",
+   "rows": 896,
+   "agree_rows": 370,
+   "first_sym": "S",
+   "last_sym": "SZZL",
+   "bytes": 1382361
+  },
+  {
+   "file": "analyst_T.parquet",
+   "letters": "T",
+   "rows": 607,
+   "agree_rows": 232,
+   "first_sym": "T",
+   "last_sym": "TZOO",
+   "bytes": 954080
+  },
+  {
+   "file": "analyst_U.parquet",
+   "letters": "U",
+   "rows": 255,
+   "agree_rows": 91,
    "first_sym": "U",
+   "last_sym": "UZX",
+   "bytes": 474676
+  },
+  {
+   "file": "analyst_V.parquet",
+   "letters": "V",
+   "rows": 306,
+   "agree_rows": 117,
+   "first_sym": "V",
+   "last_sym": "VZLA",
+   "bytes": 554593
+  },
+  {
+   "file": "analyst_W.parquet",
+   "letters": "W",
+   "rows": 227,
+   "agree_rows": 104,
+   "first_sym": "W",
+   "last_sym": "WZRD",
+   "bytes": 438677
+  },
+  {
+   "file": "analyst_X.parquet",
+   "letters": "X",
+   "rows": 254,
+   "agree_rows": 104,
+   "first_sym": "XA",
+   "last_sym": "XZO",
+   "bytes": 445276
+  },
+  {
+   "file": "analyst_Y.parquet",
+   "letters": "Y",
+   "rows": 76,
+   "agree_rows": 29,
+   "first_sym": "YAAS",
    "last_sym": "YYYM",
-   "bytes": 1672487
+   "bytes": 204247
   },
   {
    "file": "analyst_Z.parquet",
