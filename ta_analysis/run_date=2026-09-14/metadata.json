@@ -303,5 +303,241 @@
  "backfilled_from_snapshots": {
   "stock_screener_snapshots": "2026-09-14",
   "etf_screener_snapshots": "2026-09-14"
- }
+ },
+ "analyst_files": [
+  {
+   "file": "analyst_A.parquet",
+   "letters": "A",
+   "rows": 899,
+   "agree_rows": 199,
+   "first_sym": "A",
+   "last_sym": "AZZ",
+   "bytes": 1305410
+  },
+  {
+   "file": "analyst_B.parquet",
+   "letters": "B",
+   "rows": 702,
+   "agree_rows": 254,
+   "first_sym": "B",
+   "last_sym": "BZZ",
+   "bytes": 1075858
+  },
+  {
+   "file": "analyst_C.parquet",
+   "letters": "C",
+   "rows": 822,
+   "agree_rows": 268,
+   "first_sym": "C",
+   "last_sym": "CZWI",
+   "bytes": 1250296
+  },
+  {
+   "file": "analyst_D.parquet",
+   "letters": "D",
+   "rows": 469,
+   "agree_rows": 144,
+   "first_sym": "D",
+   "last_sym": "DZZ",
+   "bytes": 764108
+  },
+  {
+   "file": "analyst_E.parquet",
+   "letters": "E",
+   "rows": 477,
+   "agree_rows": 147,
+   "first_sym": "E",
+   "last_sym": "EZU",
+   "bytes": 794897
+  },
+  {
+   "file": "analyst_F.parquet",
+   "letters": "F",
+   "rows": 613,
+   "agree_rows": 201,
+   "first_sym": "F",
+   "last_sym": "FYX",
+   "bytes": 977028
+  },
+  {
+   "file": "analyst_G.parquet",
+   "letters": "G",
+   "rows": 455,
+   "agree_rows": 130,
+   "first_sym": "G",
+   "last_sym": "GYRO",
+   "bytes": 742885
+  },
+  {
+   "file": "analyst_H.parquet",
+   "letters": "H",
+   "rows": 340,
+   "agree_rows": 120,
+   "first_sym": "H",
+   "last_sym": "HZO",
+   "bytes": 580225
+  },
+  {
+   "file": "analyst_I.parquet",
+   "letters": "I",
+   "rows": 568,
+   "agree_rows": 199,
+   "first_sym": "IA",
+   "last_sym": "IZRL",
+   "bytes": 913346
+  },
+  {
+   "file": "analyst_J.parquet",
+   "letters": "J",
+   "rows": 213,
+   "agree_rows": 66,
+   "first_sym": "J",
+   "last_sym": "JZXN",
+   "bytes": 407465
+  },
+  {
+   "file": "analyst_K.parquet",
+   "letters": "K",
+   "rows": 222,
+   "agree_rows": 67,
+   "first_sym": "KAI",
+   "last_sym": "KZIA",
+   "bytes": 416109
+  },
+  {
+   "file": "analyst_L.parquet",
+   "letters": "L",
+   "rows": 344,
+   "agree_rows": 101,
+   "first_sym": "L",
+   "last_sym": "LZMH",
+   "bytes": 577536
+  },
+  {
+   "file": "analyst_M.parquet",
+   "letters": "M",
+   "rows": 592,
+   "agree_rows": 187,
+   "first_sym": "M",
+   "last_sym": "MZZ",
+   "bytes": 911112
+  },
+  {
+   "file": "analyst_N.parquet",
+   "letters": "N",
+   "rows": 423,
+   "agree_rows": 129,
+   "first_sym": "NA",
+   "last_sym": "NZAC",
+   "bytes": 702055
+  },
+  {
+   "file": "analyst_O.parquet",
+   "letters": "O",
+   "rows": 257,
+   "agree_rows": 76,
+   "first_sym": "O",
+   "last_sym": "OZK",
+   "bytes": 465357
+  },
+  {
+   "file": "analyst_P.parquet",
+   "letters": "P",
+   "rows": 609,
+   "agree_rows": 199,
+   "first_sym": "P",
+   "last_sym": "PZZA",
+   "bytes": 963847
+  },
+  {
+   "file": "analyst_Q.parquet",
+   "letters": "Q",
+   "rows": 191,
+   "agree_rows": 42,
+   "first_sym": "Q",
+   "last_sym": "QYLG",
+   "bytes": 370957
+  },
+  {
+   "file": "analyst_R.parquet",
+   "letters": "R",
+   "rows": 407,
+   "agree_rows": 113,
+   "first_sym": "R",
+   "last_sym": "RZV",
+   "bytes": 680347
+  },
+  {
+   "file": "analyst_S.parquet",
+   "letters": "S",
+   "rows": 886,
+   "agree_rows": 263,
+   "first_sym": "S",
+   "last_sym": "SZZL",
+   "bytes": 1333666
+  },
+  {
+   "file": "analyst_T.parquet",
+   "letters": "T",
+   "rows": 593,
+   "agree_rows": 185,
+   "first_sym": "T",
+   "last_sym": "TZOO",
+   "bytes": 921692
+  },
+  {
+   "file": "analyst_U.parquet",
+   "letters": "U",
+   "rows": 255,
+   "agree_rows": 77,
+   "first_sym": "U",
+   "last_sym": "UZX",
+   "bytes": 459513
+  },
+  {
+   "file": "analyst_V.parquet",
+   "letters": "V",
+   "rows": 304,
+   "agree_rows": 115,
+   "first_sym": "V",
+   "last_sym": "VZLA",
+   "bytes": 535017
+  },
+  {
+   "file": "analyst_W.parquet",
+   "letters": "W",
+   "rows": 222,
+   "agree_rows": 60,
+   "first_sym": "W",
+   "last_sym": "WZRD",
+   "bytes": 420168
+  },
+  {
+   "file": "analyst_X.parquet",
+   "letters": "X",
+   "rows": 238,
+   "agree_rows": 81,
+   "first_sym": "XA",
+   "last_sym": "XZO",
+   "bytes": 426370
+  },
+  {
+   "file": "analyst_Y.parquet",
+   "letters": "Y",
+   "rows": 76,
+   "agree_rows": 23,
+   "first_sym": "YAAS",
+   "last_sym": "YYYM",
+   "bytes": 200251
+  },
+  {
+   "file": "analyst_Z.parquet",
+   "letters": "Z",
+   "rows": 82,
+   "agree_rows": 24,
+   "first_sym": "Z",
+   "last_sym": "ZYME",
+   "bytes": 210575
+  }
+ ]
 }
