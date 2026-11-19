@@ -1,16 +1,16 @@
 {
  "run_date": "2026-11-19",
- "phase": "premarket",
- "generated_at": "2026-11-19T13:18:19+00:00",
+ "phase": "intraday",
+ "generated_at": "2026-11-19T15:45:24+00:00",
  "last_bar_date": "2026-11-18",
  "snapshot_dates": {
   "stock": "2026-11-19",
   "etf": "2026-11-19"
  },
  "agree_count": 5218,
- "denied_count": 6213,
- "disagree_count": 5815,
- "no_data_count": 397,
+ "denied_count": 6214,
+ "disagree_count": 5819,
+ "no_data_count": 394,
  "error_count": 1,
  "industries": {
   "1": "Advertising Agencies",
@@ -325,7 +325,7 @@
    "agree_rows": 395,
    "first_sym": "A",
    "last_sym": "AZZ",
-   "bytes": 1376829
+   "bytes": 1432982
   },
   {
    "file": "analyst_B.parquet",
@@ -334,7 +334,7 @@
    "agree_rows": 302,
    "first_sym": "B",
    "last_sym": "BZZ",
-   "bytes": 1109083
+   "bytes": 1154249
   },
   {
    "file": "analyst_C.parquet",
@@ -343,7 +343,7 @@
    "agree_rows": 355,
    "first_sym": "C",
    "last_sym": "CZWI",
-   "bytes": 1293573
+   "bytes": 1342918
   },
   {
    "file": "analyst_D.parquet",
@@ -352,7 +352,7 @@
    "agree_rows": 225,
    "first_sym": "D",
    "last_sym": "DZZ",
-   "bytes": 785069
+   "bytes": 815284
   },
   {
    "file": "analyst_E.parquet",
@@ -361,7 +361,7 @@
    "agree_rows": 249,
    "first_sym": "E",
    "last_sym": "EZU",
-   "bytes": 808509
+   "bytes": 837692
   },
   {
    "file": "analyst_F.parquet",
@@ -370,7 +370,7 @@
    "agree_rows": 304,
    "first_sym": "F",
    "last_sym": "FYX",
-   "bytes": 999298
+   "bytes": 1035099
   },
   {
    "file": "analyst_G.parquet",
@@ -379,7 +379,7 @@
    "agree_rows": 248,
    "first_sym": "G",
    "last_sym": "GYRO",
-   "bytes": 769927
+   "bytes": 803182
   },
   {
    "file": "analyst_H.parquet",
@@ -388,7 +388,7 @@
    "agree_rows": 165,
    "first_sym": "H",
    "last_sym": "HZO",
-   "bytes": 608092
+   "bytes": 631952
   },
   {
    "file": "analyst_I.parquet",
@@ -397,7 +397,7 @@
    "agree_rows": 283,
    "first_sym": "IA",
    "last_sym": "IZRL",
-   "bytes": 920937
+   "bytes": 953653
   },
   {
    "file": "analyst_J.parquet",
@@ -406,7 +406,7 @@
    "agree_rows": 116,
    "first_sym": "J",
    "last_sym": "JZXN",
-   "bytes": 411884
+   "bytes": 427680
   },
   {
    "file": "analyst_K.parquet",
@@ -415,7 +415,7 @@
    "agree_rows": 112,
    "first_sym": "KAI",
    "last_sym": "KZIA",
-   "bytes": 417545
+   "bytes": 431722
   },
   {
    "file": "analyst_L.parquet",
@@ -424,7 +424,7 @@
    "agree_rows": 139,
    "first_sym": "L",
    "last_sym": "LZMH",
-   "bytes": 603389
+   "bytes": 624411
   },
   {
    "file": "analyst_M.parquet",
@@ -433,7 +433,7 @@
    "agree_rows": 234,
    "first_sym": "M",
    "last_sym": "MZZ",
-   "bytes": 947402
+   "bytes": 984941
   },
   {
    "file": "analyst_N.parquet",
@@ -442,7 +442,7 @@
    "agree_rows": 204,
    "first_sym": "NA",
    "last_sym": "NZAC",
-   "bytes": 716418
+   "bytes": 746178
   },
   {
    "file": "analyst_O.parquet",
@@ -451,7 +451,7 @@
    "agree_rows": 119,
    "first_sym": "O",
    "last_sym": "OZK",
-   "bytes": 484500
+   "bytes": 504114
   },
   {
    "file": "analyst_P.parquet",
@@ -460,7 +460,7 @@
    "agree_rows": 288,
    "first_sym": "P",
    "last_sym": "PZZA",
-   "bytes": 990885
+   "bytes": 1034453
   },
   {
    "file": "analyst_Q.parquet",
@@ -469,7 +469,7 @@
    "agree_rows": 118,
    "first_sym": "Q",
    "last_sym": "QYLG",
-   "bytes": 374541
+   "bytes": 389219
   },
   {
    "file": "analyst_R.parquet",
@@ -478,7 +478,7 @@
    "agree_rows": 166,
    "first_sym": "R",
    "last_sym": "RZV",
-   "bytes": 705093
+   "bytes": 732660
   },
   {
    "file": "analyst_S.parquet",
@@ -487,7 +487,7 @@
    "agree_rows": 414,
    "first_sym": "S",
    "last_sym": "SZZL",
-   "bytes": 1367754
+   "bytes": 1421846
   },
   {
    "file": "analyst_T.parquet",
@@ -496,7 +496,7 @@
    "agree_rows": 251,
    "first_sym": "T",
    "last_sym": "TZOO",
-   "bytes": 947045
+   "bytes": 988037
   },
   {
    "file": "analyst_U.parquet",
@@ -505,7 +505,7 @@
    "agree_rows": 116,
    "first_sym": "U",
    "last_sym": "UZX",
-   "bytes": 468566
+   "bytes": 485515
   },
   {
    "file": "analyst_V.parquet",
@@ -514,7 +514,7 @@
    "agree_rows": 128,
    "first_sym": "V",
    "last_sym": "VZLA",
-   "bytes": 551882
+   "bytes": 571984
   },
   {
    "file": "analyst_W.parquet",
@@ -523,7 +523,7 @@
    "agree_rows": 106,
    "first_sym": "W",
    "last_sym": "WZRD",
-   "bytes": 439718
+   "bytes": 453007
   },
   {
    "file": "analyst_X.parquet",
@@ -532,7 +532,7 @@
    "agree_rows": 116,
    "first_sym": "XA",
    "last_sym": "XZO",
-   "bytes": 448198
+   "bytes": 465975
   },
   {
    "file": "analyst_Y.parquet",
@@ -541,16 +541,16 @@
    "agree_rows": 42,
    "first_sym": "YAAS",
    "last_sym": "YYYM",
-   "bytes": 206098
+   "bytes": 213970
   },
   {
    "file": "analyst_Z.parquet",
    "letters": "Z",
-   "rows": 82,
+   "rows": 83,
    "agree_rows": 23,
    "first_sym": "Z",
    "last_sym": "ZYN",
-   "bytes": 213515
+   "bytes": 223645
   }
  ]
 }
