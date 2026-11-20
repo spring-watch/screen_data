@@ -7480,111 +7480,111 @@
   "size": 14319
  },
  "run_date=2026-11-19/analyst_A.parquet": {
-  "etag": "10bf7ee48c98da379b76928878fcdd43",
-  "size": 1432982
+  "etag": "b5f3ed55ab0d0f820daa9d7da7d1347d",
+  "size": 1434559
  },
  "run_date=2026-11-19/analyst_B.parquet": {
-  "etag": "129e2674ff36e4cb5070626827819ffd",
-  "size": 1154249
+  "etag": "372062a1388365c84047d04785cbbbe4",
+  "size": 1155350
  },
  "run_date=2026-11-19/analyst_C.parquet": {
-  "etag": "5819df3b3d8c8aeae5f7716e328b4233",
-  "size": 1342918
+  "etag": "381f1daa0bc4c27e3919b0bec8e1a148",
+  "size": 1346615
  },
  "run_date=2026-11-19/analyst_D.parquet": {
-  "etag": "381522c8e3bf1599e869e2a41d4f049f",
-  "size": 815284
+  "etag": "a0fd6e7c8a969029ea596cc765dcde7e",
+  "size": 819065
  },
  "run_date=2026-11-19/analyst_E.parquet": {
-  "etag": "e1ba9378c2d73dda7dbc200233fd82b6",
-  "size": 837692
+  "etag": "f49c90f3e8baf7b96bab90f0152c3644",
+  "size": 840036
  },
  "run_date=2026-11-19/analyst_F.parquet": {
-  "etag": "26b78fa3b941bfd832e497c1b6e8a7b6",
-  "size": 1035099
+  "etag": "6d6be541e7b83bd9529476ef10d8ebc6",
+  "size": 1038178
  },
  "run_date=2026-11-19/analyst_G.parquet": {
-  "etag": "68d3dd827163576623f5034720d720a2",
-  "size": 803182
+  "etag": "703f26bdac1f76f39ae417db3fd12446",
+  "size": 806161
  },
  "run_date=2026-11-19/analyst_H.parquet": {
-  "etag": "979abcf7784fa7343244cef38c0e7ec3",
-  "size": 631952
+  "etag": "d39dc381033b9633cac94916fbbaf446",
+  "size": 631177
  },
  "run_date=2026-11-19/analyst_I.parquet": {
-  "etag": "e62e4836f2977c7bc502a15623a8f319",
-  "size": 953653
+  "etag": "a41e8e3e0cfcb19c05c054b3806704f1",
+  "size": 953523
  },
  "run_date=2026-11-19/analyst_J.parquet": {
-  "etag": "cb9ff1815b1911cc0bf9774c264af86d",
-  "size": 427680
+  "etag": "568ccf7253ff5db920199b1632098fad",
+  "size": 430312
  },
  "run_date=2026-11-19/analyst_K.parquet": {
-  "etag": "49076c9d63e13365790909f5866503b9",
-  "size": 431722
+  "etag": "a402a74e35cb8ac210a7ab351cfdd8f9",
+  "size": 429928
  },
  "run_date=2026-11-19/analyst_L.parquet": {
-  "etag": "61ac8156165145452e9fd2a8889b6af8",
-  "size": 624411
+  "etag": "da6f3c7fd9d5f5e70a358ed6919fc6de",
+  "size": 626874
  },
  "run_date=2026-11-19/analyst_M.parquet": {
-  "etag": "5cc104ba4da468310222505605adb6f4",
-  "size": 984941
+  "etag": "46dcf9f0474f3178fcb1a15bd9f58a98",
+  "size": 987348
  },
  "run_date=2026-11-19/analyst_N.parquet": {
-  "etag": "434882083b45e8f4740e9e22b6f163ef",
-  "size": 746178
+  "etag": "c8566937d8361cf62307e3fe2f82a0bd",
+  "size": 749260
  },
  "run_date=2026-11-19/analyst_O.parquet": {
-  "etag": "da999ee8cd18d9bcd860c00009f9b6be",
-  "size": 504114
+  "etag": "313f0ffffa492bc45c358db9aa5c6359",
+  "size": 505270
  },
  "run_date=2026-11-19/analyst_P.parquet": {
-  "etag": "617d8659ec50c03a422c332fea2ca0c5",
-  "size": 1034453
+  "etag": "7de2f646e8bb154a1607c5cf12da3108",
+  "size": 1040691
  },
  "run_date=2026-11-19/analyst_Q.parquet": {
-  "etag": "d1394ccd6d6d45b57746f9367c845f31",
-  "size": 389219
+  "etag": "20114a03a2d1e23412f1b4bb83bc7cb0",
+  "size": 388865
  },
  "run_date=2026-11-19/analyst_R.parquet": {
-  "etag": "fa57aaeffe9f6d2b8fef3922d2a76685",
-  "size": 732660
+  "etag": "aeae031e17416cdd7a8d95f34601a6af",
+  "size": 732100
  },
  "run_date=2026-11-19/analyst_S.parquet": {
-  "etag": "d077fc1a17aa8acce5cf0b62b9d3acad",
-  "size": 1421846
+  "etag": "66fc625b369b3921a0829cdff6b4b5ae",
+  "size": 1423847
  },
  "run_date=2026-11-19/analyst_T.parquet": {
-  "etag": "8603f2b0b4642c950367bb4d021f908c",
-  "size": 988037
+  "etag": "b4da658d6e74799096848c1f92db6756",
+  "size": 991158
  },
  "run_date=2026-11-19/analyst_U.parquet": {
-  "etag": "cf3a6f20db0f7e7a3f02830b0ebecf5f",
-  "size": 485515
+  "etag": "039bf98e3aced15064ce36c5fcde53ab",
+  "size": 484606
  },
  "run_date=2026-11-19/analyst_V.parquet": {
-  "etag": "081b51ed52bce88819c02c74932c7df9",
-  "size": 571984
+  "etag": "e2bf38a485d9a1ec217dfcf9e7c71126",
+  "size": 572382
  },
  "run_date=2026-11-19/analyst_W.parquet": {
-  "etag": "3a326af71ade743d8854a12dc9aea880",
-  "size": 453007
+  "etag": "84f820804d7a74e454353d3269feb432",
+  "size": 454038
  },
  "run_date=2026-11-19/analyst_X.parquet": {
-  "etag": "20f4099d201a1736ef93d662d9058a45",
-  "size": 465975
+  "etag": "aee44ec63b331ab8180ee60c87e2f5e3",
+  "size": 467862
  },
  "run_date=2026-11-19/analyst_Y.parquet": {
-  "etag": "3ad0cf0e49cc6004c011c4a0cc34df47",
-  "size": 213970
+  "etag": "9213c02aa752330fcda8839a2c0479cf",
+  "size": 213815
  },
  "run_date=2026-11-19/analyst_Z.parquet": {
-  "etag": "5dba346737cf437d32d1fa0fcb4d95a4",
-  "size": 223645
+  "etag": "2f6cfcd9cab2687cf01b61353b9f3617",
+  "size": 224348
  },
  "run_date=2026-11-19/metadata.json": {
-  "etag": "d475b44e48107d9a09344afc86af3c7d",
-  "size": 14322
+  "etag": "27397e7838ef35107adadc9f03ab3b2c",
+  "size": 14357
  }
 }
