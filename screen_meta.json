@@ -1,7 +1,8 @@
 {
-  "updated_at": "2026-11-26T19:25:14-05:00",
-  "latest_run_date": "2026-11-25",
+  "updated_at": "2026-11-27T05:15:00-05:00",
+  "latest_run_date": "2026-11-27",
   "run_dates": {
+    "2026-11-27": "Nov 27, 2026 (Premarket)",
     "2026-11-25": "Nov 25, 2026 (Close)",
     "2026-11-24": "Nov 24, 2026 (Close)",
     "2026-11-23": "Nov 23, 2026 (Close)",
@@ -243,6 +244,7 @@
     "Long Government",
     "Long-Short Equity",
     "Long-Term Bond",
+    "Long/Short & Market Neutral",
     "Lumber & Wood Production",
     "Luxury Goods",
     "Macro Trading",
